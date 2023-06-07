@@ -80,13 +80,13 @@ public class ClickService {
                     } else {
 
                         //AGAR ORDER UCHUN TO'LOV QILAYOTGAN BO'LSA TO'LANAYOTGAN SUMMA ORDER SUMMASIGA TENG BO'LISHI KERAK
-                        if (optionalOrder.get().getOrderSum() == clickDTO.getAmount()) {
-                            clickObject.setError(0);
-                            clickObject.setErrorNote("SUCCESS");
-                        } else {
-                            clickObject.setError(-2);
-                            clickObject.setErrorNote("Incorrect parameter amount");
-                        }
+//                        if (optionalOrder.get().getOrderSum() == clickDTO.getAmount()) {
+//                            clickObject.setError(0);
+//                            clickObject.setErrorNote("SUCCESS");
+//                        } else {
+//                            clickObject.setError(-2);
+//                            clickObject.setErrorNote("Incorrect parameter amount");
+//                        }
 
                         //AGAR SIZDA ABONENTSIKIY UCHUN TO'LOV QILSA QUYIDAGI 2 QATORNI OCHASIZ, YUQORIDA KODNI COMMENT QILASIZ
 //                        prepareObject.setError(0);
